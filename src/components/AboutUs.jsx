@@ -29,7 +29,7 @@ const AboutUs = () => {
             <img
               src={images.knife}
               alt="knife"
-              className=" h-[500px] w-[250px] md:w-[450px] md:h-[900px] object-contain aspect-auto opacity-70"
+              className=" h-[500px] w-[250px] md:w-[450px] md:h-[900px] object-contain aspect-auto opacity-60"
             />
           </div>
           <div className="flex flex-col gap-5 md:gap-7 items-start justify-center z-10">
