@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div className="flex flex-col md:flex-row justify-between items-center gap-10 h-full">
         <div className="flex flex-col gap-5 md:gap-10">
-          <SubHeading title="Chase the new flavour" />
+          <SubHeading title="Chase the new flavour" className={"text-lg"} />
           <h1 className="text-6xl lg:text-7xl font-bold font-heading text-golden leading-normal">
             The Key To Fine Dining
           </h1>
