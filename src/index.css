@@ -5,7 +5,7 @@
 
 @layer components{
    .custom__button{
-    @apply px-6 py-3 bg-crimson rounded-lg text-black font-semibold border-none outline-none cursor-pointer leading-5 w-auto hover:bg-golden hover:text-black transition-all duration-200;
+    @apply px-6 py-3 bg-crimson rounded-lg text-black font-semibold border-none outline-none cursor-pointer leading-5 w-auto hover:bg-golden hover:text-black transition-all duration-200 select-none;
    }
    .section__padding{
     @apply px-16 py-24 mx-auto max-w-7xl;
