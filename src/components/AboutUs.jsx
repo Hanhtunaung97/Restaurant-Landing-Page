@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import { images } from "../constants";
-import SubHeading from "../utils/SubHeading";
+import {SubHeading} from "../utils";
 const AboutUs = () => {
   return (
     <section className={`app__bg `}>

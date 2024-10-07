@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./Container";
-import SubHeading from "../utils/SubHeading";
 import { images } from "../constants";
+import {SubHeading} from "../utils";
 const Hero = () => {
   return (
     <Container
