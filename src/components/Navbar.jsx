@@ -1,6 +1,7 @@
 import React ,{useState} from "react";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
+import { images } from "../constants";
 const Navbar = () => {
     const [toggle,setToggle]=useState(false);
     const handleToggleBtn=() => {
@@ -10,7 +11,7 @@ const Navbar = () => {
     <header className="bg-black px-5 md:px-10 py-5 shadow">
       <nav className="text-white font-heading flex justify-between items-center text-sm md:text-base select-none">
         <div className="flex items-center justify-start">
-          <img src="/src/assets/gericht.png" alt className="w-28 md:w-44" />
+          <img src={images.gericht} alt className="w-28 md:w-44" />
         </div>
         <ul className=" hidden md:flex justify-center  items-center gap-5 flex-1">
           <li className=" cursor-pointer hover:text-golden transition-all duration-200">
