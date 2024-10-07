@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+   .custom__button{
+    @apply px-4 py-2 bg-crimson rounded-xl text-black font-semibold border-none outline-none cursor-pointer leading-5 tracking-wides;
+   }
+   .section__padding{
+    @apply px-16 py-24 mx-auto max-w-7xl;
+   }
+   .flex__center{
+    @apply flex justify-center items-center;
+   }
+   .app__bg{
+    @apply  bg-repeat bg-[url('./assets/bg.png')] bg-fixed bg-cover bg-center;
+   }
+   .headText__cormorant{
+    @apply text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-extrabold leading-[1] font-heading capitalize tracking-wider;
+   }
+   .p__cormorant{
+    @apply text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-heading capitalize tracking-wider;
+   }
+   .p__opensans{
+    @apply text-base font-sans font-normal capitalize text-white leading-5 tracking-wide;
+   }
+   .slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+}
