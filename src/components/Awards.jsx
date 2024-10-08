@@ -8,7 +8,7 @@ const Awards = () => {
     <section className="app__bg">
       <Container>
         <div className="flex justify-center items-center flex-col lg:flex-row gap-10">
-          <div className="flex flex-col gap-10 justify-start items-start w-full">
+          <div className="flex flex-col gap-10 justify-start items-start flex-1">
             <div className="flex flex-col gap-5 justify-start items-start">
               <SubHeading
                 title={"Awards & recognition"}
@@ -24,8 +24,8 @@ const Awards = () => {
               ))}
             </div>
           </div>
-          <div className="w-full">
-              <img src={images.laurels} alt="laurels" className=" w-full" />
+          <div className=" flex-1 w-full md:w-2/3">
+              <img src={images.laurels} alt="laurels" className="opacity-75 " />
           </div>
         </div>
       </Container>
