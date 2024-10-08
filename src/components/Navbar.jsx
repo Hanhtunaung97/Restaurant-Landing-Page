@@ -9,11 +9,11 @@ const Navbar = () => {
   };
   return (
     <header className="bg-black px-5 md:px-10 py-5 shadow">
-      <nav className="text-white font-heading flex justify-between items-center text-sm md:text-base select-none">
+      <nav className="text-white font-heading flex justify-between items-center text-base select-none">
         <div className="flex items-center justify-start">
           <img src={images.gericht} alt="logo" className="w-28 md:w-44" />
         </div>
-        <ul className=" hidden md:flex justify-center  items-center gap-5 flex-1">
+        <ul className=" hidden lg:flex justify-center  items-center gap-5 flex-1">
           <li className=" cursor-pointer hover:text-golden transition-all duration-200">
             Home
           </li>
@@ -46,7 +46,7 @@ const Navbar = () => {
             Book Table
           </a>
         </div>
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <GiHamburgerMenu
             className=" w-6 h-6 cursor-pointer text-white"
             onClick={handleToggleBtn}
