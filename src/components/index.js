@@ -9,3 +9,4 @@ export {default as Awards}from './Awards';
 export {default as Gallery}from  './Gallery';
 export {default as FindUs}from './FindUs';
 export {default as NewLetters}from './NewLetters';
+export {default as Footer}from './Footer';
