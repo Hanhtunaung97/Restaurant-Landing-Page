@@ -29,7 +29,10 @@ const Gallery = () => {
     <Container>
       <div className="flex flex-col items-center justify-center md:flex-row  gap-10">
         <div className="flex flex-col gap-5 md:gap-7 items-start justify-center z-10 w-full flex-1">
-          <SubHeading title={"Instagram"} className={"text-5xl items-start"} />
+          <SubHeading title={"Instagram"} className={"text-4xl items-start"} />
+          <h3 className=" font-heading font-bold text-golden text-6xl">
+            Photo Gallery
+          </h3>
           <p className="text-base text-slate-300 text-start w-full">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
             pharetra adipiscing ultrices vulputate posuere tristique. In sed
@@ -40,7 +43,10 @@ const Gallery = () => {
           </div>
         </div>
         <div className=" relative w-full  md:max-w-[50%] flex-1 ">
-          <div ref={imgRef}  className="flex flex-row overflow-x-hidden gap-3 duration-200 scroll-smooth ">
+          <div
+            ref={imgRef}
+            className="flex flex-row overflow-x-hidden gap-3 duration-200 scroll-smooth "
+          >
             {gallery.map((el, i) => (
               <div key={i} className=" relative group min-w-[301px] h-[450px] ">
                 <img
