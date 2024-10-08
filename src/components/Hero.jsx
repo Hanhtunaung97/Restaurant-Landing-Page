@@ -4,13 +4,12 @@ import { images } from "../constants";
 import {SubHeading} from "../utils";
 const Hero = () => {
   return (
-    <Container
-      className={` bg-black flex items-center justify-center`}
+    <Container   
     >
       <div className="flex flex-col md:flex-row justify-between items-center gap-10 h-full">
-        <div className="flex flex-col gap-5 md:gap-10">
+        <div className="flex flex-col gap-5 lg:gap-10 flex-1">
           <SubHeading title="Chase the new flavour" className={"text-lg"} />
-          <h1 className="text-6xl lg:text-7xl font-bold font-heading text-golden leading-normal">
+          <h1 className="text-5xl sm:text-6xl  lg:text-8xl font-bold font-heading text-golden leading-normal">
             The Key To Fine Dining
           </h1>
           <p className="text-base lg:text-lg text-slate-300 text-start w-full">
@@ -22,7 +21,7 @@ const Hero = () => {
             <button className="custom__button">Explore Menu</button>
           </div>
         </div>
-        <div>
+        <div className="flex-1">
           <img
             src={images.welcome}
             alt="hero"
