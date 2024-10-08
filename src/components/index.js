@@ -8,3 +8,4 @@ export {default as Intro}from './Intro';
 export {default as Awards}from './Awards';
 export {default as Gallery}from  './Gallery';
 export {default as FindUs}from './FindUs';
+export {default as NewLetters}from './NewLetters';
