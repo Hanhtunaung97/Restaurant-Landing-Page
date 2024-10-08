@@ -15,7 +15,7 @@ const Intro = () => {
     }
   };
   return (
-    <section className=" w-full h-screen relative">
+    <section className=" w-full  relative">
       <div className=" w-full h-full opacity-70 ">
         <video
           ref={videoRef}
